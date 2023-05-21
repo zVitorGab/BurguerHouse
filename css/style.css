@@ -1,0 +1,354 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+header .container-fluid{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    gap: 850px;
+}
+header .navbar{
+    background-color: rgb(255,194,52);
+}
+header .nav-link{
+    color: rgb(65,31,9);
+    font-weight: bold;
+}
+main{
+    background-color: rgb(255,194,52);
+}
+main .principal{
+    width: 100%;
+    display: flex;
+}
+main .textoPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: rgb(65,31,9);
+    width: 50%;
+}
+
+main .textoPrincipal p{
+    width: 75%;
+    text-align: center;
+    padding: 2px;
+    margin: 0px;
+
+    font-weight: bold;
+    border: 2px dashed rgb(65,31,9);
+}
+
+main .textoPrincipal h1{
+    font-size: 9rem;
+    font-weight: bold;
+    margin: 0;
+}
+main .textoPrincipal h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+main .imgPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+}
+main .imgPreco{
+    position: absolute;
+    bottom: 0px;
+    right: 440px;
+}
+main .footerMain{
+    margin-top: 2%;
+    color: rgb(65,31,9);
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+main .footerMain img{
+    margin-right: 1%;
+}
+.sec1 .container{
+    color: #fff;
+    margin: 5%;
+
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 50px;
+
+}
+.sec1 .imagens{
+    width: 40%;
+    gap: 21px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.sec1 .imgPrincipal{
+    padding: 10px;
+    width: 40%;
+    height: auto;
+    background-image: url("../img/sessao1/fundo1.png");
+    background-repeat: no-repeat;
+}
+.sec1 .img1{
+    padding: 10px;
+    height: 52%;
+    background-image: url("../img/sessao1/fundo2.png");
+    background-repeat: no-repeat;
+}
+.sec1 .img2{
+    padding: 10px;
+    height: 52%;
+    /* margin-top: 15px; */
+    background-image: url("../img/sessao1/fundo3.png");
+    background-repeat: no-repeat;
+}
+.sec1 h3 {
+    font-weight: bold;
+}
+
+.sec2 .container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.sec2 .texto{
+    text-align: center;
+    color: rgb(65,31,9);
+}
+.sec2 .texto h2{
+    font-size: 3rem;
+}
+.sec2 .texto .textoSpan{
+    margin-bottom: 1%;
+}
+.sec2 .texto span{
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 5px;
+
+    background-color: rgb(255,194,52);
+
+}
+.sec2 .texto h2{
+    font-weight: bold;
+}
+.sec2 .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sec2 .card{
+    border: none;
+}
+.sec2 .card-title, .sec2 .card-text{
+    text-align: center;
+    color: rgb(65,31,9);
+}
+
+.sec2 .card .btn{
+    background-color: rgb(223,28,28);
+    border-color: rgb(223,28,28);
+}
+.sec2 .card .btn:hover{
+    background-color: rgb(189, 24, 24);
+    border-color: rgb(189, 24, 24);
+}
+
+.sec3 .container{
+    margin-top: 5%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 40px;
+
+    color: rgb(65,31,9);
+}
+.sec3 .titulo{
+    font-weight: bold;
+}
+.sec3 .titulo h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.sec3 .texto{
+    width: 35%;
+}
+.sec3 .imagem{
+    width: 50%;
+}
+
+.sec4 .texto{
+    color: rgb(65,31,9);
+    text-align: center;
+}
+.sec4 .texto h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.sec4 .textoSpan{
+    margin-top: 10%;
+}
+.sec4 .texto span{
+    font-size: 1.3rem;
+    padding: 5px;
+    font-weight: bold;
+}
+.sec4 form{
+    margin-top: 5%;
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+.sec4 .subdiv1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+.sec4 .subdiv2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.sec4 input::placeholder{
+    color: rgb(65,31,9);
+}
+.sec4 input{
+    background-color: rgb(255,194,52);
+    height: 50px;
+    width: 50%;
+
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.sec4 #buttonForm{
+    background-color: rgb(223,28,28);
+    color: #fff;
+    font-weight: bold;
+}
+
+
+footer .container{
+    margin-top: 10%;
+
+    height: 500px;
+    background-image: url("../img/rodape/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 100px;
+
+    color: #fff;
+}
+
+footer .principal{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .footerPrincipal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    text-align: justify;
+
+}
+footer .logo{
+    margin-left: 2%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer .logo img{
+    height: 80px;
+}
+footer .descricao{
+    width: 100%;
+    margin-left: 2%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+footer .informacoes{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+footer .informacoes img{
+    height: 25px;
+    width: 29px;
+}
+footer .localizacao{
+    height: 25px;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 25px;
+}
+footer .email{
+    height: 25px;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 25px;
+}
+footer .texto{
+    width: 40%;
+}
+footer .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .links a {
+    text-decoration: none;
+}
+footer .links .autoria{
+    margin-left: 2%;
+}
+footer .links .redes{
+    margin-right: 2%;
+}
