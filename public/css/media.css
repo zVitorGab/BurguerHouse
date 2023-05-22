@@ -1,0 +1,377 @@
+@media screen and (max-width: 480px){
+    header .navbar-nav{
+        text-align: center;
+    }
+    header .container-fluid{
+        gap: 0px;
+    }
+    main .principal{
+        display: flex;
+        flex-direction: column;
+    }
+    main .textoPrincipal{
+        width: auto;
+        margin-top: 5%;
+
+        text-align: center;
+    }
+    main .textoPrincipal p{
+        width: 100%;
+    }
+    main .textoPrincipal h1{
+        font-size: 5rem;
+    }
+    main .imgPrincipal{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        position: relative;
+    }
+    main .imgPrincipal img{
+        height: 200px;
+    }
+    main .imgPrincipal .imgPreco{
+        height: 80px;
+        right: 230px;
+        position: absolute;
+    }
+
+    .sec1 .container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+    }
+    .sec1 .imgPrincipal{
+        height: 275px;
+    }
+    .sec1 .imgPrincipal, .sec1 .imagens{
+        width: 100%;
+        background-size: contain;
+    }
+    .sec1 .imagens{
+        justify-content: space-around;
+        gap: 0px;
+    }
+    .sec1 .img1, .sec1 .img2{
+        height: 45%;
+    }
+
+    .sec2 .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .sec2 .cards img{
+        height: 227px;
+    }
+
+    .sec3 .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec3 .texto{
+        width: 100%;
+        text-align: center;
+    }
+    .sec3 .imagem{
+        width: 100%;
+    }
+ 
+
+    .sec4{
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+    .sec4 input{
+        width: 85%;
+    }
+
+    footer .container{
+        height: 605px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .principal{
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer .footerPrincipal{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    footer .logo img{
+        height: 70px;
+    }
+    footer .descricao{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    footer .descricao .texto, 
+    footer .descricao .informacoes{
+        width: 100%;
+    }
+    footer .links{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    footer .links .autoria{
+        width: 100%;
+    }
+    footer .links .redes{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        gap: 10px;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    header .navbar-nav{
+        text-align: center;
+    }
+    header .container-fluid{
+        gap: 0px;
+    }
+    main .principal{
+        display: flex;
+        flex-direction: column;
+    }
+    main .textoPrincipal{
+        width: auto;
+        margin-top: 5%;
+
+        text-align: center;
+    }
+    main .textoPrincipal p{
+        width: 100%;
+    }
+    main .textoPrincipal h1{
+        font-size: 4.5rem;
+    }
+    main .imgPrincipal{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        position: relative;
+    }
+    main .imgPrincipal img{
+        height: 250px;
+    }
+    main .imgPrincipal .imgPreco{
+        height: 80px;
+        right: 290px;
+        position: absolute;
+    }
+
+    .sec1 .container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+    }
+    .sec1 .imgPrincipal{
+        height: 365px;
+    }
+    .sec1 .imgPrincipal, .sec1 .imagens{
+        width: 100%;
+        background-size: contain;
+    }
+    .sec1 .imagens{
+        justify-content: space-around;
+        gap: 0px;
+    }
+    .sec1 .img1, .sec1 .img2{
+        height: 45%;
+    }
+
+    .sec2 .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .sec2 .cards img{
+        height: 200px;
+    }
+
+    .sec3 .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec3 .texto{
+        width: 100%;
+        text-align: center;
+    }
+    .sec3 .imagem{
+        width: 100%;
+    }
+
+    .sec4{
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+    .sec4 input{
+        width: 85%;
+    }
+
+    footer .container{
+        height: 605px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .principal{
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer .footerPrincipal{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    footer .logo img{
+        height: 70px;
+    }
+    footer .descricao{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    footer .descricao .texto, 
+    footer .descricao .informacoes{
+        width: 100%;
+    }
+
+    footer .links{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    footer .links .autoria{
+        width: 100%;
+    }
+    footer .links .redes{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        gap: 10px;
+    }
+
+    footer .informacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+    
+    header .container-fluid{
+        gap: 400px;
+    }
+    main .textoPrincipal p{
+        width: 100%;
+    }
+    main .textoPrincipal h1{
+        font-size: 5rem;
+    }
+    main .imgPrincipal{
+        width: 100%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        position: relative;
+    }
+    main .imgPrincipal img{
+        height: 400px;
+    }
+    main .imgPrincipal .imgPreco{
+        height: 140px;
+        right: 360px;
+        position: absolute;
+    }
+
+    .sec1 .container{
+        height: auto;
+        gap: 21px;
+    }
+    .sec1 .imgPrincipal{
+        margin-top: 1%;
+        height: 375px;
+    }
+    .sec1 .imgPrincipal, .sec1 .imagens{
+        width: 100%;
+        background-size: cover;
+    }
+    .sec1 .imagens{
+        justify-content: space-around;
+        gap: 0px;
+    }
+    .sec1 .img1, .sec1 .img2{
+        height: 45%;
+    }
+
+    .sec2 .cards img{
+        height: 227px;
+    }
+    .sec4 input{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    header .container-fluid{
+        gap: 650px;
+    }
+    main .imgPrincipal .imgPreco{
+        height: 140px;
+        right: 360px;
+        position: absolute;
+    }
+    .sec2 .cards img{
+        height: 227px;
+    }
+    .sec4 input{
+        width: 70%;
+    }
+}

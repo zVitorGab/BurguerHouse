@@ -79,7 +79,8 @@ main .footerMain img{
 }
 .sec1 .container{
     color: #fff;
-    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 
     width: 100%;
     height: 400px;
@@ -199,7 +200,9 @@ main .footerMain img{
 .sec3 .imagem{
     width: 50%;
 }
-
+.sec3 .imagem img{
+    width: 100%;
+}
 .sec4 .texto{
     color: rgb(65,31,9);
     text-align: center;
