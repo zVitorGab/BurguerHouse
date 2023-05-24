@@ -5,6 +5,10 @@
     header .container-fluid{
         gap: 0px;
     }
+    header .nav-link{
+        width: auto;
+        height: auto;
+    }
     main .principal{
         display: flex;
         flex-direction: column;
@@ -52,7 +56,7 @@
     }
     .sec1 .imgPrincipal, .sec1 .imagens{
         width: 100%;
-        background-size: contain;
+        background-size: cover;
     }
     .sec1 .imagens{
         justify-content: space-around;
@@ -152,6 +156,10 @@
     }
     header .container-fluid{
         gap: 0px;
+    }
+    header .nav-link{
+        width: auto;
+        height: auto;
     }
     main .principal{
         display: flex;
@@ -302,7 +310,7 @@
 
     
     header .container-fluid{
-        gap: 400px;
+        gap: 270px;
     }
     main .textoPrincipal p{
         width: 100%;
@@ -359,9 +367,61 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 999px){
+    main .imgPrincipal{
+        width: 100%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        position: relative;
+    }
+    main .imgPrincipal img{
+        height: 335px;
+    }
+    main .imgPrincipal .imgPreco{
+        height: 120px;
+        right: 280px;
+        position: absolute;
+    }
+
+    .sec1 .container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 21px;
+    }
+    .sec1 .imgPrincipal{
+        height: 385px;
+    }
+    .sec1 .imgPrincipal, .sec1 .imagens{
+        width: 80%;
+        background-size: contain;
+    }
+    .sec1 .imagens{
+        justify-content: space-around;
+        gap: 0px;
+    }
+    .sec1 .img1, .sec1 .img2{
+        height: 45%;
+    }
+    .sec2 .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
 @media screen and (min-width: 1025px) and (max-width: 1280px){
     header .container-fluid{
-        gap: 650px;
+        gap: 500px;
     }
     main .imgPrincipal .imgPreco{
         height: 140px;

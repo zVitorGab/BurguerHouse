@@ -8,14 +8,23 @@ header .container-fluid{
     flex-direction: row;
 
     justify-content: space-around;
-    gap: 850px;
+    gap: 700px;
 }
 header .navbar{
     background-color: rgb(255,194,52);
 }
 header .nav-link{
+    width: 115px;
+    height: 30px;
+    padding: 0px;
+
     color: rgb(65,31,9);
     font-weight: bold;
+
+    text-align: center;
+}
+header #contactUs{
+    width: 150px;
 }
 main{
     background-color: rgb(255,194,52);
